@@ -17,7 +17,7 @@ header {
   background: #370135;
   width: 100%;
   clear: both;
-  position:fixed;
+  position: fixed;
 }
 
 nav ul li {
@@ -64,12 +64,14 @@ nav ul li a:hover {
   padding-left: 40px;
   padding-right: 40px;
   text-align: center;
-  color: white;
+  color: #370135;
   font-size: larger;
+  justify-content: justify;
 }
 
 .texto h1 {
   font-size: 90px;
+  color: aliceblue;
 }
 
 .Personajes {
@@ -87,14 +89,31 @@ nav ul li a:hover {
   height: 200px;
   width: 200px;
   border-radius: 100px;
+  box-shadow: 5px 5px 5px 5px #6c71a5;
+  margin-bottom: 20px;
+}
+.texto-personaje {
+  
+  font-size: 25px;
+  color: #370135 ;
+  text-align: center;
+  border:#6c71a5 solid;
 }
 .texto-central {
-  text-align: center;
-  font-size: 20px;
+ 
+  font-size: 18px;
+  color: #370135 ;
+  justify-content: justify;
+ 
 }
+
+
 
 .personajes {
   text-align: center;
+  font-size: 50px;
+  font-style: italic;
+  color: #370135;
 }
 
 .Escenas {
@@ -112,28 +131,44 @@ nav ul li a:hover {
 
 .Clase-descripcion {
   width: 50%;
-  padding: 5px;
+ 
 }
 
 .imagen-escenas {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
+  margin-right: 10px;
+  border-radius: 50px;
+  box-shadow: 2px 2px 2px 2px #6c71a5;
 }
 
 .escenas {
   text-align: center;
+  color:#370135;
+  font-size: 30px;
+ 
 }
 
-.tablas-temporadas{
+.tablas-temporadas {
+  width: 500px;
+  padding-left: 270px;
+  padding-top: 20px;
+ 
+}
+.tabla{
+  background-color:#6c71a5;
+  width:150%
   
-    width: 500px;
-    padding-left: 450px;
-    padding-top: 20px;
- 
- 
 }
 
+.tabla td,th {
+  border: 2px solid #370135;
+}
 
-table td, th{
-    border: 2px solid #370135;
+.tabla th{
+  margin: 40px;
+}
+
+.tabla td{
+  text-align: center;
 }
