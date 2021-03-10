@@ -1,111 +1,125 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
 body {
-    background:#7EA7C0;
-    font-family: ' sans-serif';
+  background: #7ea7c0;
+  font-family: " sans-serif";
 }
 
-.menu{
-    width:900px;
-    margin: 0 auto;
+.menu {
+  width: 900px;
+  margin: 0 auto;
 }
 
-header{
-    background:#370135;
-    width: 100%;
-    clear:both;
+header {
+  background: #370135;
+  width: 100%;
+  clear: both;
+  position:fixed;
 }
 
-nav ul li{
-    list-style: none;
-    display: inline-block;
-    margin-left: 90px;
-   
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 90px;
 }
 
-nav ul li a{
-    text-decoration: none;
-    color:white;
-    font-weight:bold;
-    font-size:larger;
-    display: block;
-    padding: 10px;
-
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: larger;
+  display: block;
+  padding: 10px;
 }
 
-nav ul li a:hover{
-    background-color:#6C71A5;
-    transition: 0.2s;
+nav ul li a:hover {
+  background-color: #6c71a5;
+  transition: 0.2s;
 }
 
-.main-content{
-    display: flex;
-    width: 100%;
-    padding-bottom: 60px;
+.main-content {
+  display: flex;
+  width: 100%;
+  padding-bottom: 60px;
 }
 
-#contenedor-imagen{
-    width: 50%;
-    padding-left: 100px;
-    
-   
+#contenedor-imagen {
+  width: 50%;
+  padding-left: 100px;
 }
 
-#imagen{
-    width: 500px;
-    border-radius: 50px;
-    box-shadow: 8px 8px 8px 8px #6C71A5;
-    margin-top: 50px;
-   
+#imagen {
+  width: 500px;
+  border-radius: 50px;
+  box-shadow: 8px 8px 8px 8px #6c71a5;
+  margin-top: 50px;
 }
 
-.texto{
-    width:50%;
-    padding-top: 50px;
-    padding-left: 40px;
-    padding-right: 40px;
-    text-align: center;
-    color: white;
-    font-size: larger;
+.texto {
+  width: 50%;
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+  color: white;
+  font-size: larger;
 }
 
-.texto h1{
-    font-size: 90px;
+.texto h1 {
+  font-size: 90px;
 }
 
-.Personajes{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    
+.Personajes {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.clase-personajes{
-    padding: 50px;
-    
+.clase-personajes {
+  padding: 50px;
 }
 
-.imagen-personaje{
-    height: 220px;
-    width:220px;
-    border-radius: 110px;
-    
+.imagen-personaje {
+  height: 220px;
+  width: 220px;
+  border-radius: 110px;
 }
-.texto-central{
-    text-align: center;
-    font-size: 20px;
-    
+.texto-central {
+  text-align: center;
+  font-size: 20px;
 }
 
-#personajes{
-text-align: center;
+.personajes {
+  text-align: center;
 }
 
+.Escenas {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.contenedor-escenas {
+  width: 50%;
+  display: flex;
+  padding: 20px;
+}
 
+.Clase-descripcion {
+  width: 50%;
+  padding: 5px;
+}
 
+.imagen-escenas {
+  width: 200px;
+  height: 200px;
+}
 
+.escenas {
+  text-align: center;
+}
