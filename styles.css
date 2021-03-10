@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background:#7EA7C0;
+    font-family: 'Arial, Helvetica, sans-serif';
+}
+
+.menu{
+    width:900px;
+    margin: 0 auto;
+
+}
+
+header{
+    background:#370135;
+    width: 100%;
+    clear:both;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-inline-start: 100px;
+    margin-right: 80px;
+    padding: 12px 0;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-weight:bold;
+    font-size:larger;
+
+}
+
+nav ul li a:hover{
+    background-color: #370135;
+}
+
