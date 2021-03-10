@@ -84,9 +84,9 @@ nav ul li a:hover {
 }
 
 .imagen-personaje {
-  height: 220px;
-  width: 220px;
-  border-radius: 110px;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
 }
 .texto-central {
   text-align: center;
@@ -122,4 +122,18 @@ nav ul li a:hover {
 
 .escenas {
   text-align: center;
+}
+
+.tablas-temporadas{
+  
+    width: 500px;
+    padding-left: 450px;
+    padding-top: 20px;
+ 
+ 
+}
+
+
+table td, th{
+    border: 2px solid #370135;
 }
